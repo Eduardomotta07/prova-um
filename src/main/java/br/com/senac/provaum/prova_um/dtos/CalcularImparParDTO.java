@@ -2,10 +2,22 @@ package br.com.senac.provaum.prova_um.dtos;
 
 public class CalcularImparParDTO {
 
-    double numero;
-    double resto;
+    String imparPar;
+    double restoDivisao;
 
+    public String getImparPar() {
+        return imparPar;
+    }
 
+    public void setImparPar(String imparPar) {
+        this.imparPar = imparPar;
+    }
 
+    public double getRestoDivisao() {
+        return restoDivisao;
+    }
 
+    public void setRestoDivisao(double restoDivisao) {
+        this.restoDivisao = restoDivisao;
+    }
 }
